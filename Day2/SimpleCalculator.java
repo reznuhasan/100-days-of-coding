@@ -26,6 +26,9 @@ public class SimpleCalculator {
                 int value6 = sc.nextInt();
                 System.out.println("result: " + (value5 * value6));
                 break;
+            default:
+                System.out.println("Invalid Number");
+                break;
         }
     }
 }
